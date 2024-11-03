@@ -18,6 +18,22 @@ Convert documents (PDF, DOCX) into podcasts with AI-powered summarization.
 - gTTS for text-to-speech
 - Docker for containerization
 
+
+  ##Output
+  
+  <img width="903" alt="paperpod1" src="https://github.com/user-attachments/assets/768807ff-6069-46ba-bb23-3fcfedf5418e">
+
+
+<img width="905" alt="paperpod2" src="https://github.com/user-attachments/assets/d5ef3d9f-73e5-4cfb-89f2-01c265f205d6">
+
+
+<img width="725" alt="paperpod3" src="https://github.com/user-attachments/assets/078589d7-0e44-4578-931b-38f87a274375">
+
+
+
+<img width="803" alt="paperpod4" src="https://github.com/user-attachments/assets/712ec82a-29be-477b-97c8-7f28f0de05d8">
+  
+
 ## Installation
 
 ### Local Setup
