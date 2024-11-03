@@ -1,0 +1,41 @@
+{% extends "base.html" %} {% block content %}
+<div class="container">
+  <h1>PaperPod</h1>
+  <p>Convert your documents into podcasts</p>
+
+  <div class="upload-container">
+    <form id="upload-form">
+      <div class="file-input">
+        <input type="file" id="file" name="file" accept=".pdf,.docx" />
+        <label for="file" class="file-label" id="file-label">
+          Choose a file or drag it here
+        </label>
+        <div id="file-info" class="file-info hidden">
+          <span id="file-name"></span>
+          <button type="button" id="remove-file" class="remove-file">×</button>
+        </div>
+      </div>
+      <button type="submit" id="upload-button" disabled>
+        Convert to Podcast
+      </button>
+    </form>
+  </div>
+
+  <div id="loading" class="hidden">
+    <div class="progress-container">
+      <div id="progress-bar" class="progress-bar"></div>
+    </div>
+    <p id="loading-text">Processing your document...</p>
+  </div>
+
+  <div id="result" class="hidden">
+    <h2>Summary</h2>
+    <div id="summary-text"></div>
+
+    <h2>Audio</h2>
+    <audio id="audio-player" controls>
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</div>
+{% endblock %}
